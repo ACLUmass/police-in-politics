@@ -1,0 +1,157 @@
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Custom CSS for SJC 12926 COVID-19 Tracker Shiny App
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Thank you: https://shiny.rstudio.com/articles/css.html
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+/* Define GT America font */
+/* CSS modified from aclum.org: https://www.aclum.org/sites/default/files/css/css_EjcJzxzhvjcsFc2zO64tGCpzBzxgdDr78RRvkT__FRA.css */
+
+/* GT America Condensed Regular */
+@font-face {
+  font-family:'gtamcond';
+  src: url("../fonts/gtamerica/GT-America-Condensed-Regular.woff2") format('woff2');
+  font-weight:400;
+}
+
+/* GT America Condensed Bold */
+@font-face {
+  font-family:'gtamcond';
+  src: url("../fonts/gtamerica/GT-America-Condensed-Bold.woff2") format('woff2');
+  font-weight:600;
+}
+
+/* GT America Regular */
+@font-face {
+  font-family:'gtam';
+  src: url("../fonts/gtamerica/GT-America-Standard-Regular.woff2") format('woff2');
+  font-weight:400;
+}
+
+/* GT America Bold */
+@font-face {
+  font-family:'gtam';
+  src: url("../fonts/gtamerica/GT-America-Standard-Bold.woff2") format('woff2');
+  font-weight:600;
+}
+
+body {
+  font-family: 'gtam', sans-serif;
+  margin: auto;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.tabbable {
+  max-width: 750px;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: gtamcond;
+}
+
+#footer {
+  padding: 10px;
+  padding-top:20px;
+  margin-top: 3rem;
+  background-color: rgb(220, 220, 220, .6);
+}
+
+/* Color navbar menu */
+/* Update bar to match ACLUM website */
+.navbar {
+  background-color: #00343a;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #a3dbe3;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: gtamcond;
+  margin-left: 20px;
+  padding: 1rem;
+}
+
+.navbar-default .navbar-nav>li.active>a, 
+.navbar-default .navbar-nav>li.open>a, 
+.navbar-default .navbar-nav>li.active>a:focus, 
+.navbar-default .navbar-nav>li.open>a:focus, 
+.navbar-default .navbar-nav>li.active>a:hover {
+  background-color: #a3dbe3;
+  color: #00343a;
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+  text-decoration: none;
+  background-color: #a3dbe3;
+  color: #00343a;
+}
+
+.navbar-header {
+    display: none;
+}
+
+/* Make heading look nice */
+.container-fluid {
+  padding: 0px;
+}
+
+#title_panel {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: .5rem;
+  padding-bottom: 2rem;
+  margin: 0px;
+  background-color: #a3dbe3;
+  border-bottom: 5px solid #00343a;
+}
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1rem;
+}
+
+.logo {
+  display: inline; 
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.directions {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    background-color: #f5f5f5;
+    padding: 1rem;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+  border-radius: 0px;
+}
+
+.dropdown-menu a { 
+    color: inherit;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0px;
+    width: 100%;
+    display: block;
+    line-height: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dropdown-menu a:hover { 
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
