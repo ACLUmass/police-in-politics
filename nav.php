@@ -2,7 +2,7 @@
 <!doctype html>
 
 <div id="title_panel">
-    <h1 style="margin-bottom: 0px; font-size:40px;">Police in Politics</h1>
+    <h1 style="margin-bottom: 0px; font-size:40px;"><a href="index.php">Police in Politics</a></h1>
     <h4 style="margin-top: 0px;">Police Campaign Donations in Massachusetts, 2010-2020</h4>
     <em>A project from Mijente, BU Spark!, and the ACLU of Massachusetts</em>
   </div>
