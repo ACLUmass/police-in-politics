@@ -20,6 +20,8 @@
 
 			</div>
 			<div class="col-sm-8">
+
+          <div class="d-sm-none" style="height: 2rem;"></div>
 				<img src="img/walsh_recurring.png" align="center" style="width:100%;">
 				<p align="center" style="margin-top:1rem;">
 					<em>

@@ -16,6 +16,8 @@
 				</div>
 			</div>
 			<div class="col-sm-8">
+
+          <div class="d-sm-none" style="height: 2rem;"></div>
                 <!-- <p align="center" style="margin-top:1rem;">
                   <em>If the Tableau charts aren't loading, please refresh.</em>
               </p> -->
